@@ -7,15 +7,15 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug executable 'reactive-gtk'",
+            "name": "Debug executable 'galvani-gtk'",
             "cargo": {
                 "args": [
                     "build",
-                    "--bin=reactive-gtk",
-                    "--package=reactive-gtk"
+                    "--bin=galvani-gtk",
+                    "--package=galvani-gtk"
                 ],
                 "filter": {
-                    "name": "reactive-gtk",
+                    "name": "galvani-gtk",
                     "kind": "bin"
                 }
             },
@@ -25,16 +25,16 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in executable 'reactive-gtk'",
+            "name": "Debug unit tests in executable 'galvani-gtk'",
             "cargo": {
                 "args": [
                     "test",
                     "--no-run",
-                    "--bin=reactive-gtk",
-                    "--package=reactive-gtk"
+                    "--bin=galvani-gtk",
+                    "--package=galvani-gtk"
                 ],
                 "filter": {
-                    "name": "reactive-gtk",
+                    "name": "galvani-gtk",
                     "kind": "bin"
                 }
             },
